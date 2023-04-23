@@ -19,3 +19,8 @@ form ‘Score: 25’.
 player reaches 100 points, the game should end.
 8. When the game ends, the display should be cleared and a message displayed
 saying ‘GAME OVER’, along with the final score.
+
+
+The folder "Part 1" contains the first version of the game, without the implementation of an enemy. While folder "Part 2" contains a new file called "Enemy_tracker.asm" that handles enemy behaviour.
+
+Instructions on how to play the game are specified on the pdf file. This file also contains a high level description of the logic implemented to create the game. I personally recommend anyone who is interested in this project to check it out too.
