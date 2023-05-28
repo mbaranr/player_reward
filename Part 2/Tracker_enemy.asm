@@ -6,7 +6,7 @@ phase:	.word	0	# phase of the enemy, defense = 0, offense = 1
 	
 ###########################################################################################################################################################################################################################################################
 # there is a hierarchy of things we need to check in order to create an enemy that is smart enough to annoy the player, but doesn't go to far														  #		
-# 1. check if the player is on the enemy's "range of vision", represented by a taxicab topological ball of radius 3, we are doing this to prevent the player from chasing the player if it is too far away for it to realistically kill it		  #								
+# 1. check if the player is on the enemy's "range of vision", represented by a taxicab topological ball of radius 3, we are doing this to prevent the enemy from chasing the player if it is too far away for it to realistically kill it		  #								
 # 2. check the phase status | this has the second highest priority as the enemy needs to stop doing whatever it was up to before to only follow the player (if the phase is set to 1), even if this means stealing a reward 			          #
 # 3. check if the enemy is one move away from the player | if we reached this step, we know the enemy is on defensive mode, so if it is one move away from the player, we prioritize not killing the player over everything else, so the enemy won't move #
 # 4. check if the enemy is one move away from the target cell | if that is the case, we will always prioritize going for the target cell, even if this means that the enemy is next to a reward								  #
