@@ -1,7 +1,9 @@
 # Player-Reward-MIPS-Assembly
+
+## Overview
 The game consists of a simple walled environment. The player ('P') can move around the environment using the keyboard to collect different rewards ('R'). The game extension implements an enemy ('E') that uses Taxicab geometry logic to block the player's path.
 
-
+## Ruleset
 
 The rules for the creation of the game are as follows:
 
@@ -20,7 +22,14 @@ player reaches 100 points, the game should end.
 8. When the game ends, the display should be cleared and a message displayed
 saying ‘GAME OVER’, along with the final score.
 
+## Structure
 
 The folder "Part 1" contains the first version of the game, without the implementation of an enemy. While folder "Part 2" contains a new file called "Tracker_enemy.asm" that handles enemy behaviour.
 
+## Instructions
+
 Instructions on how to play the game are specified on the pdf file. This file also contains a high level description of the logic implemented to create the game. I personally recommend anyone who is interested in this project to check it out too.
+
+## Credits
+* [m4mbo](https://github.com/m4mbo) for the code
+* James Stovold for the coursework material
