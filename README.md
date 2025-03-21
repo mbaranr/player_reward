@@ -30,5 +30,5 @@ The folder "Part 1" contains the first version of the game, without the implemen
 Instructions on how to play the game are specified on the pdf file. This file also contains a high level description of the logic implemented to create the game. I personally recommend anyone who is interested in this project to check it out too.
 
 ## Credits
-* [m4mbo](https://github.com/m4mbo) - Code and enemy implementation
-* [James Stovold](https://www.linkedin.com/in/jstovold/) - Coursework material
+* [m4mbo](https://github.com/m4mbo) - Code.
+* [James Stovold](https://www.linkedin.com/in/jstovold/) - Coursework material.
